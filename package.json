@@ -1,0 +1,39 @@
+{
+  "name": "baseline-buddy",
+  "displayName": "Baseline Buddy",
+  "description": "VS Code extension to check if web features are part of Baseline and suggest safer alternatives.",
+  "version": "1.0.0",
+  "publisher": "Moses okonkwo",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moses-Dera/Baseline-Buddy.git"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:typescript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescriptreact",
+    "onCommand:baseline-buddy.helloWorld",
+    "onCommand:baseline-buddy.checkFeature"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "baseline-buddy.helloWorld",
+        "title": "Baseline Buddy: Hello World"
+      },
+      {
+        "command": "baseline-buddy.checkFeature",
+        "title": "Baseline Buddy: Check Web Feature"
+      }
+    ]
+  },
+  "dependencies": {
+    "web-features": "^3.1.0"
+  }
+}
