@@ -13,19 +13,21 @@ It integrates with the [web-features](https://www.npmjs.com/package/web-features
 ## 📹 Demo
 Watch the demo of Baseline Buddy in action:
 
-[![Baseline Buddy Demo](https://github.com/moses-Dera/Baseline-Buddy/raw/main/images/buddy.png)](https://www.awesomescreenshot.com/video/44804500?key=f2630fae628ff693d2b30637a03ddc9f)
+[![Baseline Buddy Demo](https://github.com/moses-Dera/Baseline-Buddy/raw/main/images/buddy.png)](https://youtube.com/shorts/B8NESaa3SBI?feature=share)
 
 Click the image above to play the video.
 
 ## 🚀 Usage
-1. Install the extension (`.vsix`).  
+1. Install the extension (`.vsix` or from Marketplace).  
 2. Open a JavaScript/TypeScript file.  
 3. Hover over web APIs like `fetch`, `AbortController`, `ResizeObserver`.  
 4. Use the Command Palette → `Baseline Buddy: Check Web Feature`.  
 
 ## 🔧 Tech Stack
-- [VS Code Extension API](https://code.visualstudio.com/api)  
-- [web-features](https://github.com/web-platform-dx/web-features) dataset  
+- VS Code Extension API  
+- web-features dataset  
+- JavaScript, TypeScript  
+- Node.js  
 
 ## 📜 License
 This project is licensed under the MIT License — see [LICENSE](./LICENSE).
