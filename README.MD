@@ -20,7 +20,7 @@ Additional demo video:
 [Watch on Awesome Screenshot](https://www.awesomescreenshot.com/video/44804500?key=f2630fae628ff693d2b30637a03ddc9f)
 
 ## 🚀 Usage
-1. Install the extension (`.vsix` or from Marketplace).  
+1. Install the extension (`.vsix`).  
 2. Open a JavaScript/TypeScript file.  
 3. Hover over web APIs like `fetch`, `AbortController`, `ResizeObserver`.  
 4. Use the Command Palette → `Baseline Buddy: Check Web Feature`.  
